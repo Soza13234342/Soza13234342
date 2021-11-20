@@ -1,6 +1,5 @@
-if game:GetService("CoreGui"):FindFirstChild("Venyx") then
-    game:GetService("CoreGui").Venyx:Destroy()
-end
+
+
 -- venyx ui lib reuploaded by me
 -- init
 local player = game.Players.LocalPlayer
