@@ -17,9 +17,9 @@ if game.CoreGui:FindFirstChild("Discord") then
      userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
  end)
  
- pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
- user =  userinfo["user"] or game.Players.LocalPlayer.Name
- tag = userinfo["tag"] or tostring(math.random(1000,9999))
+ pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=3095250&width=420&height=420&format=png"
+ user =  userinfo["user"] or "rip_indra"
+ tag = userinfo["tag"] or tostring(9999)
  
  local function SaveInfo()
      userinfo["pfp"] = pfp
